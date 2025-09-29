@@ -91,7 +91,7 @@ console.log("Age: " +person.age);
 console.log("City: " +person.city);
 console.log(person.greet());
 
-person.greet() = "Hello, my name is {name}";
+// person.greet() = "Hello, my name is {name}";
 
 // car object with properties and methods (start, stop, drive). Call the methods
 
