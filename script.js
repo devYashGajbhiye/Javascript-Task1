@@ -47,7 +47,14 @@ console.log(cars.price);
 // Swap 2 numbers
 let a = 10;
 let b = 20;
-console.log(a,b);
+console.log("Before Swap Value of a: " +a);
+console.log("Before Swap Value of b: " +b);
+
+a = a + b; 
+b = a - b; 
+a = a - b; 
+console.log("After Swap Value of a: " +a);
+console.log("After Swap Value of b: " +b);
 
 // Even or Odd
 let number = 4;
